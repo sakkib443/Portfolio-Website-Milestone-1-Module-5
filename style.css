@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.coliur-primary{
+    color: #FD6E0A;
+}
+
+header{
+    background-color: #fff7f2;
+    background-image: url('/img/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+    
+    align-items: center;
+    
+}
+nav h3{
+    font-size: 45px;
+}
+.menu ul{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    
+  
+}
+.menus{
+    display: flex;
+    margin-top: 10px;
+}
+.menu button{
+    
+padding: 12px 25px;
+color: white;
+font-weight: 600;
+border: none;
+border-radius: 5px;
+background: #FD6E0A;
+}
+.menu a{
+    list-style: none;
+    
+    
+}
+.menu ul li{
+    margin-right: 30px;
+}
+
+.banar{
+    display: flex;
+  padding: 20px 140px 0 120px;
+    
+    align-items: center;
+
+}
+.banar img{
+    width: 500px;
+}
+.banar h1{
+    font-size: 75px;
+}
+.banar h3{
+    font-size: 35px;
+    color: #433931;
+}
+.banar button{
+    padding: 12px 25px;
+color: white;
+font-weight: 600;
+border: none;
+border-radius: 5px;
+background: #FD6E0A;
+margin-top: 20px;
+}
+
+
+/* about section */
+.aboutt{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    
+}
+.about{
+    padding: 80px 160px;
+    background-color: #fff6ed;
+    
+    
+}
+.about h3{
+    margin-bottom: 30px;
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.about p{
+    color: var(--Dark-03, #757575);
+text-align: center;
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.contact h4{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+}
+.contact p{
+    color: var(--Dark-03, #757575);
+text-align: center;
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* whit i deo section */
+.whatido h3{
+        margin-bottom: 30px;
+        margin-top: 100px;
+        color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+
+
+.do-section{
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+  
+}
+
+.do-section h4{
+    margin-bottom: 20px;
+    color: var(--Dark-01, #181818);
+
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.whatido p{
+    text-align: justify;
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    
+}
+.do-section>div{
+    border-radius: 15px;
+background: #FFF;
+padding: 20px 26px;
+
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.do-section img{
+    margin-bottom: 30px;
+}
+
+.top p{
+    text-align: center;
+}
+
+/* exprence section */
+
+.resume-discription{
+    display: flex;
+    row-gap: 10px;
+    column-gap: 60px;
+}
+.resume-head {
+    margin: 100px 0 60px 0;
+}
+
+.resume-head h3{
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.details{
+    margin-bottom: 50px;
+    padding-right: 80px;
+    border-bottom: 1px solid rgb(195, 189, 189) ;
+    padding-bottom: 30px;
+    
+}
+.education-head h4{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+}
+
+.details h5{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 3px;
+}
+
+.details h6{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 10px;
+}
+
+.details p{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+.exprence-head h4{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.btnn button{
+    padding: 12px 25px;
+color: white;
+font-weight: 600;
+border: none;
+border-radius: 5px;
+background: #FD6E0A;
+margin-bottom: 30px;
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+
+.f-item{
+    display: flex;
+    padding: 120px 300px;
+    column-gap: 100px;
+
+}
+.contact- h3{
+    color: var(--Dark-01, #181818);
+
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 6px;
+}
+.contact- p{color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 10px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */}
+
+    .social img{
+        margin-right: 20px;
+    }
+
+    footer{
+        background-color: #FFF8F3;
+    }
+
+    .message h3{
+        color: var(--Dark-01, #181818);
+
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 10px;
+    }
+
+.message input{
+    width:  300px;
+    padding: 5px 6px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid rgb(255, 165, 149);
+}
+.m{
+    height: 100px;
+}
+.message button{
+    padding: 12px 25px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background: #FD6E0A;
+    margin-bottom: 30px;
+}
